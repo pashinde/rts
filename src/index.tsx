@@ -1,7 +1,12 @@
 import ReactDom from "react-dom";
+import UserSearch from "./state/UserSearch";
 
 const App = () => {
-    return <div>Hello</div>;
+    return (
+        <div>
+            <UserSearch />
+        </div>
+    );
 };
 
 ReactDom.render(
